@@ -1,0 +1,13 @@
+{
+  "name": "image-fade",
+  "version": "1.0.0",
+  "description": "Workbench for testing smooth image loading",
+  "scripts": {
+    "serve": "http-server"
+  },
+  "author": "veikkos",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

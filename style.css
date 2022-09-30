@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #21273b;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.image {
+    height: 75%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.54);
+}
+
+.fade {
+    animation: fade ease-in-out 0.4s;
+}
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
